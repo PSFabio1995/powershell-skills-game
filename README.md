@@ -172,9 +172,10 @@ Play Online / Explore
 
 
 
-Web version: \[CodePen Link]
+Web version: https://codepen.io/PSFabio/pen/JoXQmjy 
 
 
 
 PowerShell version: Included in /powershell folder
+
 
