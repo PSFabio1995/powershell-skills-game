@@ -1,0 +1,65 @@
+/* Body setup */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: #0c0c0c; /* Dark terminal background */
+  color: #00ff00;      /* Classic green text */
+  text-align: center;
+  padding: 40px;
+}
+
+/* Card container */
+.card {
+  background: #1a1a1a; /* Slightly lighter for contrast */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  border: 1px solid #00ff00;
+}
+
+/* Buttons styled like terminal selection */
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #00ff00;
+  border-radius: 3px;
+  cursor: pointer;
+  background: #0c0c0c;
+  color: #00ff00;
+  font-size: 16px;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background: #003300; /* Dark green highlight */
+}
+
+/* Heading styles */
+h1 {
+  color: #00ff00;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #00ff00;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+/* Progress text */
+#progress {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #00ff00;
+}
+
+/* Final score */
+.card p {
+  font-size: 18px;
+  margin: 10px 0;
+}
